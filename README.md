@@ -38,7 +38,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
   * Site Behavior Example: **User clicks watch Battlegrounds slider, site navigates to the community page**
 
 # Notes
-![alt text](src/assets/pubg-wireframe.jpg "Site Wireframe")
+![alt text](https://github.com/bobbymart1n/pubg-site-clone/blob/master/src/assets/pubg-wireframe.JPG?raw=true "Site Wireframe")
 
 # Technologies
 * HTML
