@@ -1,3 +1,28 @@
 .announcement-item {
   display: flex;
+  align-items: center;
+  background: white;
+  border-bottom: 1px solid rgba(0,0,0,.4);
+  padding: 20px;
+  min-height: 124px;
+  .announcement-image {
+    width: 200px;
+    max-width: 180px;
+    overflow: hidden;
+    img {
+      width: 200px;
+    }
+  }
+  .announcement-text {
+    padding-left: 20px;
+    .announcement-headline {
+      font-weight: bold;
+      font-size: 16px;
+    }
+    .announcement-teaser {
+      font-size: 14px;
+    }
+
+  }
+
 }

@@ -20,7 +20,11 @@ export class AppComponent {
     new PatchNote('./../assets/patch-note-2-thumb.jpg', 'Lorem ipsum dolar set', 'Lorem ipsum dolar set')
   ];
   masterAnnouncementList: Announcement[] = [
-    new Announcement('', 'Lorem ipsum dolar', 'Lorem ipsum dolar set')
+    new Announcement('./../assets/announcement-1.jpg', 'Lorem ipsum dolar', 'Lorem ipsum dolar set'),
+    new Announcement('./../assets/announcement-2.png', 'Lorem ipsum dolar', 'Lorem ipsum dolar set'),
+    new Announcement('./../assets/announcement-3.jpg', 'Lorem ipsum dolar', 'Lorem ipsum dolar set'),
+    new Announcement('./../assets/announcement-4.png', 'Lorem ipsum dolar', 'Lorem ipsum dolar set'),
+    new Announcement('./../assets/announcement-5.jpg', 'Lorem ipsum dolar', 'Lorem ipsum dolar set')
   ];
 
 }
