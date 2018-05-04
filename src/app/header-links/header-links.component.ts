@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { HeaderLink } from './../models/header-link.model';
 
 @Component({
   selector: 'app-header-links',
@@ -6,7 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./header-links.component.scss']
 })
 export class HeaderLinksComponent {
-
+  @Input() childHeaderLinkList: HeaderLink[];
   constructor() { }
 
 }
