@@ -1,8 +1,10 @@
-<div class="patch-note-item col-md-6" *ngFor="let patchNote of childPatchNoteList">
-  <div class="patch-note-image">
-    <img src="{{patchNote.imageLink}}" alt="">
-    <img class="overlay" src="./../assets/dev-patch-overlay.png" alt="">
+<div class="row">
+  <div class="patch-note-item col-md-6" *ngFor="let patchNote of childPatchNoteList">
+    <div class="patch-note-image">
+      <img src="{{patchNote.imageLink}}" alt="">
+      <img class="overlay" src="./../assets/dev-patch-overlay.png" alt="">
+    </div>
+    <h4>{{patchNote.headline}}</h4>
+    <p class="mb-0">{{patchNote.teaserText}}</p>
   </div>
-  <h4>{{patchNote.headline}}</h4>
-  <p class="mb-0">{{patchNote.teaserText}}</p>
 </div>
