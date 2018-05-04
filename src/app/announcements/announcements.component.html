@@ -1,3 +1,9 @@
-<p>
-  announcements works!
-</p>
+<div class="announcement-item" *ngFor="let announcement of childAnnouncementList">
+  <div class="announcement-image">
+    <img src="{{announcement.imageLink}}" alt="">
+  </div>
+  <div class="announcement-text">
+    <p class="announcement-headline mb-0">{{announcement.headline}}</p>
+    <p class="announcement-teaser mb-0">{{announcement.teaserText}}</p>
+  </div>
+</div>

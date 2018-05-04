@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { HeaderLink } from './models/header-link.model';
 import { PatchNote } from './models/patch-note.model';
+import { Announcement } from './models/announcement.model';
 
 @Component({
   selector: 'app-root',
@@ -17,6 +18,9 @@ export class AppComponent {
   masterPatchNoteList: PatchNote[] = [
     new PatchNote('./../assets/patch-note-1-thumb.jpg', 'Lorem ipsum dolar set', 'Lorem ipsum dolar set'),
     new PatchNote('./../assets/patch-note-2-thumb.jpg', 'Lorem ipsum dolar set', 'Lorem ipsum dolar set')
+  ];
+  masterAnnouncementList: Announcement[] = [
+    new Announcement('', 'Lorem ipsum dolar', 'Lorem ipsum dolar set')
   ];
 
 }
