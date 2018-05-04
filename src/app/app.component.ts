@@ -9,7 +9,9 @@ import { HeaderLink } from './models/header-link.model';
 export class AppComponent {
   title = 'app';
   masterHeaderLinkList: HeaderLink[] = [
-    new HeaderLink('./../assets/header-banner01.png')
+    new HeaderLink('./../assets/header-banner01.png'),
+    new HeaderLink('./../assets/header-banner02.png'),
+    new HeaderLink('./../assets/header-banner03.png')
   ];
 
 }
