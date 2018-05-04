@@ -15,8 +15,8 @@ export class AppComponent {
     new HeaderLink('./../assets/header-banner03.png')
   ];
   masterPatchNoteList: PatchNote[] = [
-    new PatchNote('', 'Lorem ipsum dolar set', 'Lorem ipsum dolar set'),
-    new PatchNote('', 'Lorem ipsum dolar set', 'Lorem ipsum dolar set')
+    new PatchNote('./../assets/patch-note-1-thumb.jpg', 'Lorem ipsum dolar set', 'Lorem ipsum dolar set'),
+    new PatchNote('./../assets/patch-note-2-thumb.jpg', 'Lorem ipsum dolar set', 'Lorem ipsum dolar set')
   ];
 
 }

@@ -1,0 +1,13 @@
+.patch-note-item {
+  padding: 0;
+  .patch-note-image {
+    position: relative;
+    img {
+      width: 100%;
+    }
+    .overlay {
+      position: absolute;
+      bottom: 0;
+    }
+  }
+}
