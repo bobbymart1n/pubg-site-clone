@@ -22,11 +22,19 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
   * Output Example: ****
 
 # User Story
-* The user will
-  * Site Behavior Example: ****
+* The user will click on links in the navbar component to navigate to desired page
+  * Site Behavior Example: **User clicks News, site loads news page**
+* The user will click on Buy Now button in navbar component. Page will load Buy Now page
+  * Site Behavior Example: **User clicks Buy Now, site loads Buy Now page in new tab**
+* The user will click on header component item images to navigate to desired page
+  * Site Behavior Example: **User clicks Steam image in header, site opens a new tab to game on Steam webpage**
+* The user will click on Patch Notes Item component to navigate to desired patch note page
+  * Site Behavior Example: **User clicks Patch Note PC Update #12 item, site opens new page to Update #12 Patch Notes**
+* The user will click on Announcement component item, site navigates to desired Announcement item.
+  * Site Behavior Example: **User clicks Announcement item about turning off personal item trades, site navigates to that page**
 
 # Notes
-![alt text] (src/assets/pubg-wireframe.jpg "Site Wireframe")
+![alt text](src/assets/pubg-wireframe.jpg "Site Wireframe")
 
 # Technologies
 * HTML
