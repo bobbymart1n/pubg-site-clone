@@ -1,5 +1,5 @@
 # PlayerUnknowns Battlegrounds Clone
-An Angular 2 porject for Epicodus 5.4.2018
+An Angular 2 project for Epicodus 5.4.2018
 
 # By Bobby Martin
 
@@ -24,6 +24,9 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 # User Story
 * The user will
   * Site Behavior Example: ****
+
+# Notes
+![alt text] (src/assets/pubg-wireframe.jpg "Site Wireframe")
 
 # Technologies
 * HTML
