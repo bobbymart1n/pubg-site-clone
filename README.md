@@ -34,6 +34,8 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
   * Site Behavior Example: **User clicks Announcement item about turning off personal item trades, site navigates to that page**
 * The user will click on a Dev Blog component item, site navigates to desired Blog item.
   * Site Behavior Example: **User clicks Dev Blog item about new event mode, site navigates to that page**
+* The user will click on read more in content slider component, site navigates to desired item.
+  * Site Behavior Example: **User clicks watch Battlegrounds slider, site navigates to the community page**
 
 # Notes
 ![alt text](src/assets/pubg-wireframe.jpg "Site Wireframe")
