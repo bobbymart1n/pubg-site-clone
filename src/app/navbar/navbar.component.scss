@@ -1,5 +1,5 @@
 .navbar {
-  height: 80px;
+  height: 100px;
   justify-content: flex-start;
   border-bottom: 1px solid rgba(255,255,255,.5);
   .logo {
@@ -14,6 +14,17 @@
     &:hover {
       color: #e28d02;
       text-decoration: none;
+    }
+  }
+  .buy-now-button {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    background-color: #e28d02;
+    &:hover {
+      color: white;
     }
   }
 }

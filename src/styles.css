@@ -1,6 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css?family=Teko:400,500');
 
+html, body {
+  height: 100%;
+}
+
+body {
+  background: url('assets/static-bg.jpg');
+  background-size: cover;
+}
+
 h1, h2, h3, h4, h5 {
   font-family: 'Teko', sans-serif;
   font-weight: 500;
