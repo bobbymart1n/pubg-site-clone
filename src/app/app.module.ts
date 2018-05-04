@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HeaderComponent } from './header/header.component';
 import { HeaderLinksComponent } from './header-links/header-links.component';
+import { PatchNotesComponent } from './patch-notes/patch-notes.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { HeaderLinksComponent } from './header-links/header-links.component';
     AppComponent,
     NavbarComponent,
     HeaderComponent,
-    HeaderLinksComponent
+    HeaderLinksComponent,
+    PatchNotesComponent
   ],
   imports: [
     BrowserModule

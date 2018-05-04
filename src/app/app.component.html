@@ -1,12 +1,18 @@
-<div class="container-fluid">
-  <app-navbar></app-navbar>
-  <div class="header">
-    <div class="bottom-header">
-      <app-header></app-header>
-      <app-header-links [childHeaderLinkList]="masterHeaderLinkList"></app-header-links>
-    </div>
+<app-navbar></app-navbar>
+<div class="header">
+  <div class="bottom-header">
+    <app-header></app-header>
+    <app-header-links [childHeaderLinkList]="masterHeaderLinkList"></app-header-links>
   </div>
-  <div class="header-split">
-    <img src="./../assets/page-split.png" alt="">
+</div>
+<div class="header-split">
+  <img src="./../assets/page-split.png" alt="">
+</div>
+<div class="main-content">
+  <div class="patch-notes col-md-8">
+    <app-patch-notes></app-patch-notes>
+  </div>
+  <div class="announcements col-md-4">
+
   </div>
 </div>
