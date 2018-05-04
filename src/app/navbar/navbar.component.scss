@@ -3,6 +3,8 @@
   border-bottom: 1px solid rgba(255,255,255,.5);
   padding-top: 0;
   padding-bottom: 0;
+  position: relative;
+  z-index: 1;
   &.navbar.inner-container {
     padding: 0;
     border: 0;

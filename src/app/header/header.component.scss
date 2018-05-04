@@ -1,0 +1,10 @@
+.header-inner-container {
+  height: 100%;
+  position: relative;
+  .header-logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
