@@ -9,11 +9,14 @@
   <img src="./../assets/page-split.png" alt="">
 </div>
 <div class="main-content">
-  <div class="patch-notes col-md-8">
-    <h1>Patch Notes</h1>
-    <app-patch-notes [childPatchNoteList]="masterPatchNoteList"></app-patch-notes>
-  </div>
-  <div class="announcements col-md-4">
-
+  <div class="row">
+    <div class="patch-notes col-md-8">
+      <h1>Patch Notes</h1>
+      <app-patch-notes [childPatchNoteList]="masterPatchNoteList"></app-patch-notes>
+    </div>
+    <div class="announcements col-md-4">
+      <h1>Accouncements</h1>
+      <app-announcements></app-announcements>
+    </div>
   </div>
 </div>
