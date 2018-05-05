@@ -20,4 +20,5 @@ p, span, label, a {
 .parent {
   background: url('./assets/static-bg.jpg');
   background-size: cover;
+  padding-top: 90px;
 }
