@@ -1,22 +1,2 @@
 <app-navbar></app-navbar>
-<div class="header">
-  <div class="bottom-header">
-    <app-header></app-header>
-    <app-header-links [childHeaderLinkList]="masterHeaderLinkList"></app-header-links>
-  </div>
-</div>
-<div class="header-split">
-  <img src="./../assets/page-split.png" alt="">
-</div>
-<div class="main-content">
-  <div class="row">
-    <div class="patch-notes col-md-8">
-      <h1>Patch Notes</h1>
-      <app-patch-notes [childPatchNoteList]="masterPatchNoteList"></app-patch-notes>
-    </div>
-    <div class="announcements col-md-4">
-      <h1>Announcements</h1>
-      <app-announcements [childAnnouncementList]="masterAnnouncementList"></app-announcements>
-    </div>
-  </div>
-</div>
+<router-outlet></router-outlet>
