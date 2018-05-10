@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
+import { routing } from './app.routing';
 
 
 import { AppComponent } from './app.component';
@@ -11,6 +12,8 @@ import { HeaderComponent } from './header/header.component';
 import { HeaderLinksComponent } from './header-links/header-links.component';
 import { PatchNotesComponent } from './patch-notes/patch-notes.component';
 import { AnnouncementsComponent } from './announcements/announcements.component';
+import { HomeComponent } from './home/home.component';
+import { PatchNoteDetailComponent } from './patch-note-detail/patch-note-detail.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -26,10 +29,13 @@ export const firebaseConfig = {
     HeaderComponent,
     HeaderLinksComponent,
     PatchNotesComponent,
-    AnnouncementsComponent
+    AnnouncementsComponent,
+    HomeComponent,
+    PatchNoteDetailComponent
   ],
   imports: [
     BrowserModule,
+    routing,
     AngularFireModule.initializeApp(firebaseConfig),
     AngularFireDatabaseModule
   ],
