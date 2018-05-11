@@ -16,9 +16,3 @@ h1, h2, h3, h4, h5 {
 p, span, label, a {
   font-family: 'Arial', SimSun, sans-serif, 'Apple SD Gothic Neo';
 }
-
-.parent {
-  background: url('./assets/static-bg.jpg');
-  background-size: cover;
-  padding-top: 90px;
-}
