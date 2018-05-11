@@ -1,0 +1,16 @@
+.footer-container {
+  background-color: #141414;
+  position: relative;
+  padding: 140px 0 158px;
+  .social-media {
+    display: flex;
+    .icon {
+      margin: 0 15px;
+    }
+  }
+}
+.footer-image {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
