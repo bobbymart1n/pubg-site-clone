@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FirebaseListObservable } from 'angularfire2/database';
 import { Router } from '@angular/router';
 import { PatchNote } from './../models/patch-note.model';
+import { DevBlogs } from './../models/dev-blog.model';
 import { PatchNotesService } from './../services/patch-notes.service';
 
 @Component({
@@ -13,6 +14,7 @@ import { PatchNotesService } from './../services/patch-notes.service';
 
 export class PatchNotesComponent {
   patchNotes: FirebaseListObservable<any[]>;
+  devBlogs: FirebaseListObservable<any[]>;
   constructor(private router: Router, private patchNotesService: PatchNotesService) { }
 
   goToPatchNotePage(clickedPatchNote) {
@@ -20,6 +22,7 @@ export class PatchNotesComponent {
   }
   ngOnInit() {
     this.patchNotes = this.patchNotesService.getPatchNotes();
+    this.devBlogs = this.patchNotesService.getBlogPosts();
   }
 
 }

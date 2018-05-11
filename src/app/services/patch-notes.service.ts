@@ -4,13 +4,19 @@ import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/databa
 
 @Injectable()
 export class PatchNotesService {
-  patchNotes: FirebaseListObservable<any[]>;;
+  patchNotes: FirebaseListObservable<any[]>;
+  devBlogs: FirebaseListObservable<any[]>;
   constructor(private database: AngularFireDatabase) {
     this.patchNotes = database.list('patchNotes');
+    this.devBlogs = database.list('devBlogs');
   }
 
   getPatchNotes() {
     return this.patchNotes;
+  }
+
+  getBlogPosts() {
+    return this.devBlogs;
   }
 
   getPatchNotesById(patchNoteId: string) {
