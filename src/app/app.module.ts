@@ -16,6 +16,7 @@ import { PatchNoteDetailComponent } from './patch-note-detail/patch-note-detail.
 import { SliderComponent } from './slider/slider.component';
 import { SocialMediaComponent } from './social-media/social-media.component';
 import { FooterComponent } from './footer/footer.component';
+import { BlogPostDetailComponent } from './blog-post-detail/blog-post-detail.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -36,7 +37,8 @@ export const firebaseConfig = {
     PatchNoteDetailComponent,
     SliderComponent,
     SocialMediaComponent,
-    FooterComponent
+    FooterComponent,
+    BlogPostDetailComponent
   ],
   imports: [
     BrowserModule,

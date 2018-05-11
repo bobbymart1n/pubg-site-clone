@@ -11,6 +11,10 @@ const appRoutes: Routes = [
   {
     path: 'patch-notes/:id',
     component: PatchNoteDetailComponent
+  },
+  {
+    path: 'blog-posts/:id',
+    component: PatchNoteDetailComponent
   }
 ];
 
