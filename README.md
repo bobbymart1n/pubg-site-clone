@@ -21,7 +21,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 * Added bootstrap slider section and slider
 * Added twitter feed section with functional twitter widgets
 * Added Footer
-* Deployed project to Firebase [Click Here to view it!]("https://pubg-site-clone.firebaseapp.com/")
+* Deployed project to Firebase [Click Here to view it!](https://pubg-site-clone.firebaseapp.com/)
 
 ## Future Features
 * Finish off patch note detail, announcement detail, and blog post detail component templates
