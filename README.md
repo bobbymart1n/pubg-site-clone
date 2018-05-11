@@ -15,7 +15,16 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
+## Update features from last week 5/4/2018
+* Refactored template layout
+* Added dev blogs to database and displayed them on the front page
+* Added bootstrap slider section and slider
+* Added twitter feed section with functional twitter widgets
+* Added Footer
+* Deployed project to Firebase [Click Here to view it!]
+
 ## Future Features
+* Finish off patch note detail, and blog post detail component templates
 * The user will be able to sign in and add, edit, or delete Blog posts, Patch Notes, or Announcements
 
 # User Story
