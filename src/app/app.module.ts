@@ -14,7 +14,6 @@ import { PatchNotesComponent } from './patch-notes/patch-notes.component';
 import { AnnouncementsComponent } from './announcements/announcements.component';
 import { HomeComponent } from './home/home.component';
 import { PatchNoteDetailComponent } from './patch-note-detail/patch-note-detail.component';
-import { DevBlogComponent } from './dev-blog/dev-blog.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -32,8 +31,7 @@ export const firebaseConfig = {
     PatchNotesComponent,
     AnnouncementsComponent,
     HomeComponent,
-    PatchNoteDetailComponent,
-    DevBlogComponent
+    PatchNoteDetailComponent
   ],
   imports: [
     BrowserModule,
