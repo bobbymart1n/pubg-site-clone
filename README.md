@@ -15,11 +15,8 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
-# Specifications
-
-* The program will
-  * Input Example: ****
-  * Output Example: ****
+## Future Features
+* The user will be able to sign in and add, edit, or delete Blog posts, Patch Notes, or Announcements
 
 # User Story
 * The user will click on links in the navbar component to navigate to desired page
