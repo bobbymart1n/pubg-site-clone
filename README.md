@@ -24,7 +24,8 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 * Deployed project to Firebase [Click Here to view it!]
 
 ## Future Features
-* Finish off patch note detail, and blog post detail component templates
+* Finish off patch note detail, announcement detail, and blog post detail component templates
+* Make compress all images for faster loading
 * The user will be able to sign in and add, edit, or delete Blog posts, Patch Notes, or Announcements
 
 # User Story

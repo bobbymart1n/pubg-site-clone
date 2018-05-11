@@ -10,7 +10,7 @@ import { PatchNotesService } from './../services/patch-notes.service';
   providers: [PatchNotesService]
 })
 
-export class PatchNotesComponent {
+export class PatchNotesComponent implements OnInit {
   patchNotes: FirebaseListObservable<any[]>;
   devBlogs: FirebaseListObservable<any[]>;
   constructor(private router: Router, private patchNotesService: PatchNotesService) { }

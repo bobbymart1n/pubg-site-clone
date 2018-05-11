@@ -1,4 +1,4 @@
-<div class="announcement-item" *ngFor="let announcement of childAnnouncementList">
+<div class="announcement-item" *ngFor="let announcement of announcements | async">
   <div class="announcement-image">
     <img src="{{announcement.imageLink}}" alt="">
   </div>

@@ -13,22 +13,12 @@ import { HeaderLinksComponent } from './../header-links/header-links.component';
 })
 export class HomeComponent implements OnInit {
 
-
   constructor() { }
-
-
 
   masterHeaderLinkList: HeaderLink[] = [
     new HeaderLink('./../assets/header-banner01.png'),
     new HeaderLink('./../assets/header-banner02.png'),
     new HeaderLink('./../assets/header-banner03.png')
-  ];
-  masterAnnouncementList: Announcement[] = [
-    new Announcement('./../assets/announcement-1.jpg', 'Lorem ipsum dolar', 'Lorem ipsum dolar set'),
-    new Announcement('./../assets/announcement-2.png', 'Lorem ipsum dolar', 'Lorem ipsum dolar set'),
-    new Announcement('./../assets/announcement-3.jpg', 'Lorem ipsum dolar', 'Lorem ipsum dolar set'),
-    new Announcement('./../assets/announcement-4.png', 'Lorem ipsum dolar', 'Lorem ipsum dolar set'),
-    new Announcement('./../assets/announcement-5.jpg', 'Lorem ipsum dolar', 'Lorem ipsum dolar set')
   ];
 
   ngOnInit() {

@@ -1,14 +1,15 @@
 import { Injectable } from '@angular/core';
-import { PatchNote } from './../models/patch-note.model';
 import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
 
 @Injectable()
 export class PatchNotesService {
   patchNotes: FirebaseListObservable<any[]>;
   devBlogs: FirebaseListObservable<any[]>;
+  announcements: FirebaseListObservable<any[]>;
   constructor(private database: AngularFireDatabase) {
     this.patchNotes = database.list('patchNotes');
     this.devBlogs = database.list('devBlogs');
+    this.announcements = database.list('announcements');
   }
 
   getPatchNotes() {
@@ -17,6 +18,10 @@ export class PatchNotesService {
 
   getBlogPosts() {
     return this.devBlogs;
+  }
+
+  getAnnouncements() {
+    return this.announcements;
   }
 
   getBlogPostsById(blogPostId: string) {
