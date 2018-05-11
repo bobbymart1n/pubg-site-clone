@@ -19,7 +19,10 @@ export class PatchNoteDetailComponent implements OnInit {
     this.route.params.forEach((urlParameters) => {
      this.patchNoteId = urlParameters['id'];
    });
-   this.patchNoteToDisplay = this.patchNotesService.getPatchNotesById(this.patchNoteId);
+   this.patchNotesService.getPatchNotesById(this.patchNoteId).subscribe(dataLastEmittedFromObserver => {
+     this.patchNoteToDisplay = dataLastEmittedFromObserver;
+   })
+   // this.patchNoteToDisplay = this.patchNotesService.getPatchNotesById(this.patchNoteId);
   }
 
 }
