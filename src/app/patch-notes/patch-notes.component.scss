@@ -1,3 +1,9 @@
+.patch-and-dev-container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
 .patch-note-item {
   .patch-note-image {
     height: 255px;

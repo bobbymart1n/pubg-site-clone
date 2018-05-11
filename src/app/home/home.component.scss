@@ -26,11 +26,6 @@
 
 .main-content {
   background-color: #f1f1f1;
-  .patch-and-dev-container {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-  }
   .patch-notes, .announcements {
     h1 {
       text-transform: uppercase;

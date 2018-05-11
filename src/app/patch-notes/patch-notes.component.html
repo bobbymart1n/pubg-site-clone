@@ -1,12 +1,33 @@
-<div class="row">
-  <div class="patch-note-item col-md-6" *ngFor="let patchNote of patchNotes | async">
-    <div class="patch-note-image">
-      <img src="{{patchNote.imageLink}}" alt="">
-      <img class="overlay" src="./../assets/dev-patch-overlay.png" alt="">
+<div class="patch-and-dev-container">
+  <div class="patch-notes">
+    <h1>Patch Notes</h1>
+    <div class="row" *ngIf="patchNotes">
+      <div class="patch-note-item col-md-6" *ngFor="let patchNote of patchNotes | async">
+        <div class="patch-note-image">
+          <img src="{{patchNote.imageLink}}" alt="">
+          <img class="overlay" src="./../assets/dev-patch-overlay.png" alt="">
+        </div>
+        <div class="patch-note-text">
+          <h4>{{patchNote.headline}}</h4>
+          <p class="mb-0">{{patchNote.teaserText}}</p>
+        </div>
+      </div>
     </div>
-    <div class="patch-note-text">
-      <h4>{{patchNote.headline}}</h4>
-      <p class="mb-0">{{patchNote.teaserText}}</p>
+  </div>
+
+  <div class="blog-posts">
+    <h1 class="text-uppercase">Dev. Blog</h1>
+    <div class="row" *ngIf="devBlogs">
+      <div class="patch-note-item col-md-6" *ngFor="let blogPost of devBlogs | async">
+        <div class="patch-note-image">
+          <img src="{{blogPost.imageLink}}" alt="">
+          <img class="overlay" src="./../assets/dev-patch-overlay.png" alt="">
+        </div>
+        <div class="patch-note-text">
+          <h4>{{blogPost.headline}}</h4>
+          <p class="mb-0">{{blogPost.teaserText}}</p>
+        </div>
+      </div>
     </div>
   </div>
 </div>
