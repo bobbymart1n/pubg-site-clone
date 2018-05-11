@@ -19,8 +19,12 @@ export class PatchNotesService {
     return this.devBlogs;
   }
 
+  getBlogPostsById(blogPostId: string) {
+    return this.database.object('/blog-posts/' + blogPostId);
+  }
+
   getPatchNotesById(patchNoteId: string) {
-    return this.database.object('patch-notes/' + patchNoteId);
+    return this.database.object('/patch-notes/' + patchNoteId);
   }
 
 }

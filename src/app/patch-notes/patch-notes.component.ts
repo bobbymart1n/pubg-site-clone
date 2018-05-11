@@ -1,8 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FirebaseListObservable } from 'angularfire2/database';
 import { Router } from '@angular/router';
-import { PatchNote } from './../models/patch-note.model';
-import { DevBlogs } from './../models/dev-blog.model';
 import { PatchNotesService } from './../services/patch-notes.service';
 
 @Component({
@@ -19,6 +17,9 @@ export class PatchNotesComponent {
 
   goToPatchNotePage(clickedPatchNote) {
     this.router.navigate(["patch-notes", clickedPatchNote.$key])
+  }
+  goToBlogPostPage(clickedBlogPost) {
+    this.router.navigate(["blog-posts", clickedBlogPost.$key])
   }
   ngOnInit() {
     this.patchNotes = this.patchNotesService.getPatchNotes();
