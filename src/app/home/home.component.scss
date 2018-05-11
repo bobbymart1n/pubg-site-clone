@@ -31,4 +31,10 @@
       text-transform: uppercase;
     }
   }
+  .slider-container {
+    background: url('./../../assets/slider-bg.jpg');
+    background-size: cover;
+    width: 100%;
+    margin-top: 80px;
+  }
 }
