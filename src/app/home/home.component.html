@@ -4,31 +4,35 @@
     <app-header-links [childHeaderLinkList]="masterHeaderLinkList"></app-header-links>
   </div>
 </div>
-<div class="header-split">
-  <img src="./../../assets/page-split.png" alt="">
-</div>
-<div class="main-content">
-  <div class="row">
-    <div class="col-md-8">
-      <app-patch-notes></app-patch-notes>
-    </div>
-    <div class="announcements col-md-4">
-      <h1>Announcements</h1>
-      <app-announcements [childAnnouncementList]="masterAnnouncementList"></app-announcements>
-    </div>
+<div class="container-fluid parent">
+  <app-navbar></app-navbar>
+  <div class="header-split">
+    <img src="./../../assets/page-split.png" alt="">
   </div>
-  <div class="row">
-    <div class="slider-container">
-      <app-slider></app-slider>
+  <div class="main-content">
+    <div class="row">
+      <div class="col-md-8">
+        <app-patch-notes></app-patch-notes>
+      </div>
+      <div class="announcements col-md-4">
+        <h1>Announcements</h1>
+        <app-announcements [childAnnouncementList]="masterAnnouncementList"></app-announcements>
+      </div>
     </div>
-  </div>
-  <div class="mt-5">
-    <app-social-media></app-social-media>
+    <div class="row">
+      <div class="slider-container">
+        <app-slider></app-slider>
+      </div>
+    </div>
+    <div class="mt-5">
+      <app-social-media></app-social-media>
+    </div>
   </div>
 </div>
 <div class="page-split-social w-100">
-  <img class="w-100" src="./../../assets/page-split-bottom.jpg" alt="">
+  <img class="w-100" src="./../assets/page-split-bottom.jpg" alt="">
 </div>
 <div class="footer-split w-100">
-  <img class="w-100" src="./../../assets/page-split-footer.jpg" alt="">
+  <img class="w-100" src="./../assets/page-split-footer.jpg" alt="">
+  <app-footer></app-footer>
 </div>
