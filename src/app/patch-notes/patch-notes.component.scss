@@ -1,8 +1,12 @@
 .patch-note-item {
   .patch-note-image {
+    height: 255px;
+    overflow: hidden;
     position: relative;
     img {
       width: 100%;
+      position: relative;
+      bottom: 50px;
     }
     .overlay {
       position: absolute;

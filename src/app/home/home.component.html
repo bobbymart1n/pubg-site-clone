@@ -9,19 +9,19 @@
 </div>
 <div class="main-content">
   <div class="row">
-    <div class="patch-notes col-md-8">
-      <h1>Patch Notes</h1>
-      <app-patch-notes></app-patch-notes>
+    <div class="col-md-8">  
+      <div class="patch-notes">
+        <h1>Patch Notes</h1>
+        <app-patch-notes></app-patch-notes>
+      </div>
+      <div class="dev-blog">
+        <h1 class="text-uppercase">Dev. Blog</h1>
+        <app-patch-notes></app-patch-notes>
+      </div>
     </div>
     <div class="announcements col-md-4">
       <h1>Announcements</h1>
       <app-announcements [childAnnouncementList]="masterAnnouncementList"></app-announcements>
-    </div>
-  </div>
-  <div class="row">
-    <div class="dev-blog col-md-8">
-      <h1>Dev Blog</h1>
-      <app-patch-notes></app-patch-notes>
     </div>
   </div>
 </div>
