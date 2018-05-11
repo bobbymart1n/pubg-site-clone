@@ -1,0 +1,9 @@
+.social-media-container {
+  .row {
+    justify-content: center;
+    .social-item {
+      height: 735px;
+      overflow-y: scroll;
+    }
+  }
+}
