@@ -2,10 +2,33 @@
   background-color: #141414;
   position: relative;
   padding: 140px 0 158px;
+  .footer-content {
+    max-width: 1700px;
+    margin: auto;
+    padding: 0 40px;
+    .footer-info {
+      .copyright {
+        flex-direction: column;
+        font-size: 12px;
+        color: #444;
+        ul {
+          padding: 0;
+          list-style: none;
+          a {
+            color: inherit;
+          }
+        }
+      }
+    }
+  }
   .social-media {
     display: flex;
+    padding-bottom: 40px;
     .icon {
       margin: 0 15px;
+    }
+    .icon:first-child {
+      margin-left: 0;
     }
   }
 }
